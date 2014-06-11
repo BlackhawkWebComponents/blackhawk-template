@@ -1,0 +1,7 @@
+{
+  "name": "blackhawk-template#gh-pages",
+  "private": true,
+  "dependencies": {
+    "blackhawk-template": "blackhawkwebcomponents/blackhawk-template#master"
+  }
+}

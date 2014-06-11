@@ -1,0 +1,36 @@
+{
+  "name": "blackhawk-template",
+  "homepage": "http://blackhawkwebcomponents.github.io/blackhawk-template",
+  "description": "",
+  "main": "blackhawk-template.html",
+  "authors": [
+    "Rob Beers"
+  ],
+  "license": "Apache2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "../"
+  ],
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "_release": "daac0e4f4e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "daac0e4f4eb1658d647ed132080fc8f3eaee35c5"
+  },
+  "_source": "git://github.com/blackhawkwebcomponents/blackhawk-template.git",
+  "_target": "master",
+  "_originalSource": "blackhawkwebcomponents/blackhawk-template",
+  "_direct": true
+}
