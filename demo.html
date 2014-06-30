@@ -10,10 +10,22 @@
 </head>
 <body unresolved>
 
-<p>A <code>&lt;blackhawk-template&gt;</code> looks like this:</p>
-<blackhawk-template title="A blank template to copy">
-</blackhawk-template>
+<template is="auto-binding">
 
+    <p>A <code>&lt;blackhawk-template&gt;</code> looks like this:</p>
+
+    <blackhawk-template
+            title="A blank template to copy">
+    </blackhawk-template>
+
+</template>
+
+<script>
+    var t = document.querySelector("template");
+    t.json = function(value) {
+        return JSON.stringify(value, null, 2);
+    }
+</script>
 
 </body>
 </html>
